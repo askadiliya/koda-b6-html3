@@ -7,6 +7,55 @@
     <title>Form Survey</title>
 </head>
 <body>
-    
+    <form>
+        <div>
+            <label for="nama">Siapa nama anda?</label><br>
+            <input type="text" id="nama" name="nama">
+        </div>
+
+        <div>
+            <label for="umur">Berapa umur anda?</label><br>
+            <input type="number" id="umur" name="umur">
+        </div>
+
+        <div>
+            <label>Apa jenis kelamin?</label><br>
+            <input type="radio" id="jk_laki" name="jk" value="Laki-laki">
+            <label for="jk_laki">Laki-laki</label>
+
+            <input type="radio" id="jk_perempuan" name="jk" value="Perempuan">
+            <label for="jk_perempuan">Perempuan</label>
+        </div>
+
+        <div>
+            <label>Apakah anda perokok?</label><br>
+            <input type="radio" id="perokok_ya" name="perokok" value="Ya">
+            <label for="perokok_ya">Ya</label>
+
+            <input type="radio" id="perokok_tidak" name="perokok" value="Tidak">
+            <label for="perokok_tidak">Tidak</label>
+        </div>
+
+        <div>
+            <label>Jika anda perokok, rokok apa yang pernah dicoba?</label><br>
+
+            <input type="checkbox" id="rokok_gg" name="rokok" value="Gudang Garam Filter">
+            <label for="rokok_gg">Gudang Garam Filter</label><br>
+
+            <input type="checkbox" id="rokok_ls" name="rokok" value="Lucky Strike">
+            <label for="rokok_ls">Lucky Strike</label><br>
+
+            <input type="checkbox" id="rokok_marlboro" name="rokok" value="Marlboro">
+            <label for="rokok_marlboro">Marlboro</label><br>
+
+            <input type="checkbox" id="rokok_esse" name="rokok" value="Esse">
+            <label for="rokok_esse">Esse</label>
+        </div>
+
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
 </body>
 </html>
